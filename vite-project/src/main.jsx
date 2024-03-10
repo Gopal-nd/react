@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import Navbar from "./pages/Navbar.jsx";
 import { BrowserRouter, Route, Link ,Routes, Router} from "react-router-dom";
 import "./index.css";
+import LoadMore from "./pages/LoadMore.jsx";
 import Slider from "./pages/Slider.jsx";
 import RandomColor from "./pages/RandomColor.jsx";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/accordian" element={<Accordian/>} />
         <Route path="/randomcolor" element={<RandomColor/>} />
         <Route  path="/slider" element={<Slider/>} /> 
+        <Route path="/loader" element={<LoadMore/>}/>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

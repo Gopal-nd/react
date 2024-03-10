@@ -22,6 +22,7 @@ const Navbar = () => {
                 <Link to="/accordian" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Accordian</Link>
                 <Link to="/randomcolor" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">RandomColor</Link>
                 <Link to="/slider" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Slider</Link>
+                <Link to="/loader" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">LoadMore</Link>
               </div>
             </div>
           </div>
