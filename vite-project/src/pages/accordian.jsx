@@ -1,4 +1,4 @@
-import { NetworkSelector } from "@thirdweb-dev/react";
+
 import  { useState } from "react";
 
 const Accordian = () => {

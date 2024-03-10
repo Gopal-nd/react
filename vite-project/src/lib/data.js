@@ -1,0 +1,45 @@
+export  const menubar = [
+    {
+        label:"Home",
+        to:'/',
+    },
+    {
+        label:"profile",
+        to:"/profile",
+        children:[
+            {
+                label:"Detail",
+                to:"details",
+                children:[
+                    {
+                        label:"location",
+                        to:"location"
+                    }
+                ]
+            }
+        ]
+    },{
+        label:"settings",
+        to:"/settings",
+        children:[{
+            label:"Account",
+            to:"account"
+        },
+            {
+                label:"security",
+                to:'security',
+                children:[
+                    {
+                        label:"login",
+                        to:"Login"
+                    },{
+                        label:"register",
+                        to:"register"
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+export default menubar

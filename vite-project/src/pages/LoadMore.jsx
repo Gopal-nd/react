@@ -35,6 +35,8 @@ const LoadMore = () => {
 useEffect(() => {
     fetchproducts();
   }, [count]);
+
+  
   
   useEffect(()=>{
     if ( product.length === 60 ) setDisable(true);
