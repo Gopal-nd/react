@@ -53,7 +53,7 @@ useEffect(() => {
             product && product.length >0 ? product.map((item)=>(
                 <div key={item.id + Math.floor(Math.random()* 1000000)} className='p-6 border flex flex-col border-blue-600 gap-6'> 
                 <img src={item.thumbnail
-} alt={item.title} width={100} height={100}/>
+} alt={item.title} />
                 <p  className='text-center'>{item.title}</p>
                 </div>
             )):null

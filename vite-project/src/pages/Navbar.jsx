@@ -23,7 +23,8 @@ const Navbar = () => {
                 <Link to="/randomcolor" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">RandomColor</Link>
                 <Link to="/slider" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Slider</Link>
                 <Link to="/loader" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">LoadMore</Link>
-                <Link to="/tree" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">tree</Link>
+                <Link to="/tree" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Tree</Link>
+                <Link to="/qrcode" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">QR</Link>
               </div>
             </div>
           </div>

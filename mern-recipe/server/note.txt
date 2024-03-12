@@ -1,0 +1,8 @@
+{
+ "name":"Lemon Juse",
+ "ingrediants" :["lemon","water","suger"],
+ "instruction" :"mix all in goods propostion",
+ "imageUrl":"https://media.istockphoto.com/id/459291795/photo/arrangement-of-glass-with-fresh-lemonade-with-ingredients.jpg?s=612x612&w=0&k=20&c=8c6viPr6F1M_X0Zw6cUlQip9WddO5GuV5vl1zH4ViVY=",
+ "cookingTime":5,
+ "userOwner":"65f0049c292c501c61994173"
+}

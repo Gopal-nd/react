@@ -10,7 +10,7 @@ import RandomColor from "./pages/RandomColor.jsx";
 import { ThemeProvider } from "@/components/theme-provider";
 import Accordian from "./pages/accordian.jsx";
 import Tree from "./pages/Tree.jsx";
-// Navbar component
+import Qrcode from "./pages/Qrcode.jsx";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -26,6 +26,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route  path="/slider" element={<Slider/>} /> 
         <Route path="/loader" element={<LoadMore/>}/>
         <Route path="/tree" element={<Tree/>}/>
+        <Route path="/qrcode" element={<Qrcode/>}/>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
